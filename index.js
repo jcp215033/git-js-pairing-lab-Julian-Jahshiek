@@ -28,3 +28,24 @@ for (let x = 0; x<=100; x++){
 }
 
 multiplesOfThreeOrFive();
+
+//4 jahshiek driver
+function untilNum(bum) {
+  if (bum < 1) {
+        console.error('num must be greater than 1');
+        return;
+    }
+
+    if (!Number.isInteger(bum)) {
+        bum = Math.trunc(bum);
+    }
+
+    for (var i = 1; i <= bum; i++) {
+        console.info(i);
+    }
+}
+
+untilNum(10);
+
+
+ 
