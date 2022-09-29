@@ -79,3 +79,9 @@ function isNegative (x){
 }
 
 console.log(isNegative(-7));
+
+//8 Jahshiek-Driver
+function triangleArea(b, h){
+  return (b*h)/2
+}
+console.log(triangleArea(5, 7))
