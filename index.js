@@ -85,3 +85,15 @@ function triangleArea(b, h){
   return (b*h)/2
 }
 console.log(triangleArea(5, 7))
+
+//9 julian driver
+
+function betweenTwentyAndFourty (x) {
+  if (x > 20 &&  x < 40){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+console.log(betweenTwentyAndFourty(55));
