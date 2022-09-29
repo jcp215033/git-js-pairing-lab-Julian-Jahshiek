@@ -70,10 +70,4 @@ console.log(add(14, 14));
 
 
 
- //5 Julian Driver
- function multiply(x,y){
-     let z = 0;
-     z = x*y;
-     return z;
- }
- console.log(multiply(3, 5));
+ 
