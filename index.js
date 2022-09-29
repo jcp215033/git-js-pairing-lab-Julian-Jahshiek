@@ -111,3 +111,13 @@ function largest(num1, num2, num3){
   }
 }
 console.log(largest(14, 44, 51))
+
+// 11 Julian Driver
+
+function printTime (){
+  const d = new Date();
+let time = d.getHours() + ':' +d.getMinutes() + ":" + d.getSeconds();
+return time;
+}
+
+console.log(printTime());
