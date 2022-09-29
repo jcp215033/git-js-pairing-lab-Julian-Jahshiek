@@ -47,6 +47,15 @@ function untilNum(bum) {
 
 untilNum(10);
 
+//5 Julian Driver
+ function multiply(x,y){
+     let z = 0;
+     z = x*y;
+     return z;
+ }
+ console.log(multiply(3, 5));
+
+
 //6 Jahshiek-Driver
 function add(num1, num2){
   if(num1 === num2){
@@ -56,6 +65,8 @@ function add(num1, num2){
     return num1 + num2
 }
 console.log(add(14, 14));
+
+
 
 
 
