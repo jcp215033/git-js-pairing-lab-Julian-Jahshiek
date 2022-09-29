@@ -97,3 +97,17 @@ function betweenTwentyAndFourty (x) {
   }
 }
 console.log(betweenTwentyAndFourty(55));
+
+//10 Jahshiek-Driver
+function largest(num1, num2, num3){
+  if(num1 > num2 && num1 > num3){
+      return num1
+  }else if (num2 > num1 && num2 > num3){
+      return num2
+  }else if(num3 > num1 && num3 > num2){
+      return num3
+  }else{
+      return "They are all equal"
+  }
+}
+console.log(largest(14, 44, 51))
