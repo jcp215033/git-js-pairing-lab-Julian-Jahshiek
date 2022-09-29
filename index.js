@@ -47,5 +47,15 @@ function untilNum(bum) {
 
 untilNum(10);
 
+//6 Jahshiek-Driver
+function add(num1, num2){
+  if(num1 === num2){
+    return(num1 + num2)*3
+  }
+  if (num1 != num2)
+    return num1 + num2
+}
+console.log(add(14, 14));
+
 
  
