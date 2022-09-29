@@ -15,3 +15,16 @@ function multiplesOfThree(x){
     
 }
 multiplesOfThree();
+
+//3 Julian the driver
+
+function multiplesOfThreeOrFive (){
+for (let x = 0; x<=100; x++){
+    if ((x % 3 === 0) || (x % 5 === 0)){
+        console.log(x);
+    }
+}
+
+}
+
+multiplesOfThreeOrFive();
