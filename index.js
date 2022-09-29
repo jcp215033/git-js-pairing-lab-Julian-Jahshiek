@@ -69,5 +69,13 @@ console.log(add(14, 14));
 
 
 
+function isNegative (x){
+  if (x < 0){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
 
- 
+console.log(isNegative(-7));
